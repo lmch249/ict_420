@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    background: linear-gradient(to bottom, #ff0000, #ffcc00); 
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+#site-header {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem;
+    border-bottom: 3px solid #1E3A8A;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #1E3A8A;
+    margin: 0 0 1rem;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: #F97316;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #111827;
+    margin: 0.5rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #374151;
+}
+
+h4 {
+    font-size: 1.25rem;
+    color: #374151;
+}
+
+h5 {
+    font-size: 1rem;
+    color: #6B7280;
+}
+
+/* Navigation Styles */
+.main-nav {
+    margin: 1rem 0;
+}
+
+.main-nav h2 {
+    font-size: 1.25rem;
+    color: #374151;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.main-nav li {
+    flex: 0 1 auto;
+}
+
+.main-nav a {
+    color: #2563EB;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.5rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #F97316;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Main Content Styles */
+main {
+    flex: 1;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    flex: 1 1 100%;
+    min-width: 280px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #D1D5DB;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+.intro, .brands, .video {
+    margin-bottom: 1.5rem;
+}
+
+.brands p {
+    margin: 0.5rem 0;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #111827;
+}
+
+.brands a {
+    color: #2563EB;
+    font-weight: 600;
+}
+
+.brands a:hover {
+    color: #F97316;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border: 2px dashed #1E3A8A;
+    transition: border-color 0.3s ease;
+}
+
+.responsive-img:hover {
+    border-color: #F97316;
+}
+
+.video-frame {
+    border: 3px solid #111827; 
+    max-width: 100%;
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+    margin: 1rem auto;
+    transition: border-color 0.3s ease;
+}
+
+.video-frame:hover {
+    border-color: #F97316;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}

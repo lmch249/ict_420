@@ -1,0 +1,11 @@
+html {
+    font-family: "Arial", sans-serif;
+    font: size 1rem;
+    background: radial-gradient(farthest-side at left bottom, yellow 50px, red);
+
+
+}
+
+h2 {
+text-transform:uppercase;
+}
