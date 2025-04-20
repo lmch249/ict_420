@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Lucas Chevuru",
+  "givenName": "Lucas",
+  "familyName": "Chevuru",
+  "email": "lmch249@uky.edu",
+  "url": "",
+  "description": "Lucas Chevuru is a senior at UK and a Sales associate at Best Buy.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "840 Hays Blvd",
+    "addressLocality": "Lexington",
+    "addressRegion": "KY",
+    "postalCode": "40509",
+    "addressCountry": "KY"
+  }
+}
+</script>
