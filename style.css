@@ -33,30 +33,30 @@ body {
 
 h1 {
     font-size: 2.5rem;
-    color: #1E3A8A;
+    color: #ffffff;
     margin: 0 0 1rem;
     transition: color 0.3s ease;
 }
 
 h1:hover {
-    color: #F97316;
+    color: #ffffff;
 }
 
 h2 {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #111827;
+    color: #ffffff;
     margin: 0.5rem 0;
 }
 
 h3 {
     font-size: 1.5rem;
-    color: #374151;
+    color: #ffffff;
 }
 
 h4 {
     font-size: 1.25rem;
-    color: #374151;
+    color: #ffffff;
 }
 
 h5 {
@@ -64,7 +64,6 @@ h5 {
     color: #6B7280;
 }
 
-/* Navigation Styles */
 .main-nav {
     margin: 1rem 0;
 }
@@ -100,7 +99,6 @@ h5 {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Main Content Styles */
 main {
     flex: 1;
 }
@@ -122,60 +120,4 @@ section {
     border-radius: 8px;
     border: 1px solid #D1D5DB;
     transition: transform 0.3s ease;
-}
-
-section:hover {
-    transform: translateY(-5px);
-}
-
-.intro, .brands, .video {
-    margin-bottom: 1.5rem;
-}
-
-.brands p {
-    margin: 0.5rem 0;
-    text-align: justify;
-    letter-spacing: 0.01em;
-    color: #111827;
-}
-
-.brands a {
-    color: #2563EB;
-    font-weight: 600;
-}
-
-.brands a:hover {
-    color: #F97316;
-}
-
-.responsive-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1rem auto;
-    border: 2px dashed #1E3A8A;
-    transition: border-color 0.3s ease;
-}
-
-.responsive-img:hover {
-    border-color: #F97316;
-}
-
-.video-frame {
-    border: 3px solid #111827; 
-    max-width: 100%;
-    width: 100%;
-    aspect-ratio: 16/9;
-    display: block;
-    margin: 1rem auto;
-    transition: border-color 0.3s ease;
-}
-
-.video-frame:hover {
-    border-color: #F97316;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.875rem;
 }
