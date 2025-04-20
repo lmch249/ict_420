@@ -10,6 +10,18 @@ body {
     min-height: 100vh;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+    list-style: none;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
 
 #site-header {
     background: rgba(255, 255, 255, 0.95);
