@@ -4,125 +4,84 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
-        <style>
-        html {
-            font-family: "Arial", sans-serif;
-            font: size 1rem;
-            background: radial-gradient(farthest-side at left bottom, yellow 50px, red);
-        
-
-    }
-</style>
         <title>Tables and Forms</title>
     </head>
     <body>
-        
-            <h1>HTML Tables and Forms</h1>
 
-            <h2>Tables</h2>
-            
-            <table>
-                <caption>iPhone or Android</caption>
-                <thead>
-                    <tr>
-                        <th scope="colgroup" colspan="5">Attitude</th>
-                    </tr>
-                    <tr>
-                        <th scope="col">Size</th>
-                        <th scope="col">Operating System</th>
-                        <th scope="col">Camera</th>
-                        <th scope="col">Colors</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">iPhone</th>
-                        <td>92</td>
-                        <td>18</td>
-                        <td>90</td>
-                        <td>200</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Android</th>
-                        <td>68</td>
-                        <td>22</td>
-                        <td>110</td>
-                        <td>200</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <th scope="row">Column Marginal</th>
-                        <td>18</td>
-                        <td>18</td>
-                        <td>18</td>
-                        <td>18</td>
-                    </tr>
-                </tfoot>
-            </table>
+        <h1>HTML Tables and Forms</h1>
 
-            <h2>Forms</h2>
+        <h2>Tables</h2>
 
-            <form action="#" method="post">
-                <label for="name">Enter your name: </label>
-                <input type="text" name="name" id='name' required>
-                <label for="email">Enter your email: </label>
-                <input type="email" name="email" id="email" required>
-                <input type ="submit" value="Submit">
+        <table>
+            <caption>iPhone vs Android</caption>
+            <thead>
+                <tr>
+                    <th scope="colgroup" colspan="5">Attitude</th>
+                </tr>
+                <tr>
+                    <th scope="col">Phones</th>
+                    <th scope="col">For</th>
+                    <th scope="col">Undecided</th>
+                    <th scope="col">Against</th>
+                    <th scope="col">Row Marginal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">iPhone</th>
+                    <td>98</td>
+                    <td>14</td>
+                    <td>92</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <th scope="row">Android</th>
+                    <td>78</td>
+                    <td>32</td>
+                    <td>120</td>
+                    <td>200</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Column Marginal</th>
+                    <td>176</td>
+                    <td>46</td>
+                    <td>212</td>
+                    <td>400</td>
+                </tr>
+            </tfoot>
+        </table>
 
-            </form>
+        <h2>Forms</h2>
 
-            <h3>Button</h3>
+        <h3>Basic Form</h3>
 
-            <form action="#" method="get">
-                <button type="submit" name="button_like">Click here.</button>
-            </form>
+        <form action="#" method="get">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" required>
+            <input type="submit" value="Submit">
 
-            <h3> Data List</h3>
+        </form>
 
-            <form action="#" method="get">
-                <label for="myPhones">What is your favorite Phone?</label>
-                <input list="Phones" id="myPhones" name="myPhones">
-                <datalist id="Phones">
-                    <option value="iPhone">
-                    <option value="Samsung">
-                    <option value="Google">
-                    <option value="motorola">
-                </datalist>
-           </form>
-    
-           <h3>Select</h3>
+        <h3>Button</h3>
 
-           <form action="#" method="get">
-                <label for="storage-sizes">What kind of storage size would you like to have?</label>
-                <select id="storage-sizes" name="storage sizes">
-                    <option value="">--Please choose an option--</option>
-                    <optgroup label="Traditional">
-                        <option value="128gbs">128gbs</option>
-                        <option value="256gbs">256gbs</option>
-                        <option value="512gbs">512gbs</option>
-                        <option value="1tb">1tb</option>
-                    </optgroup>
-                </select>
-            </form>
+        <form action="#" method="get">
+            <button type="submit" name="button_like">Click if you like buttons.</button>
+        </form>
 
-            <h3>What phone do you have?</h3>
+        <h3>Data List</h3>
 
-            <form action="#" method="get"
-                ></form><fieldset>
-                    <legend>Choose what phone brand you have: </legend>
-                    <label><input type="radio" name="favtech" value="iPhone">iPhone</label><br>
-                    <label><input type="radio" name="favtech" value="Samsung">Samsung</label><br>
-                    <label><input type="radio" name="favtech" value="Other">Other</label><br>
-                </fieldset>
-            
-
-            <h3>Text Area</h3>
-
-            <form action="#" method="post">
-                <label for="thoughts">Any other phones you use that we did not mention?</label>
-                <textarea id="thoughts" name="thoughts" rows="10" cols="75">Enter here:</textarea>
-            </form>
+        <form action="#" method="get">
+            <label for="myFP">What is your favorite Phone?</label>
+            <input list="FP" id="myFP" name="myFP">
+            <datalist id="FP">
+                <option value="iPhone">
+                <option value="Android">
+             </datalist>
+        </form>
 
     </body>
 </html>
